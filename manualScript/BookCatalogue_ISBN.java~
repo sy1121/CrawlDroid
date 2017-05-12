@@ -1,0 +1,12 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestBookCatalogue{
+public void test(){
+		  onView(withText("OK")).perform(click());
+		  onView(withId("com.eleybourn.bookcatalogue:id/add_book_label")).perform(click());
+                  onView(withText("Cancel")).perform(click());
+		  onView(withText("Enter ISBN")).perform(click());
+		  onView(withId("com.eleybourn.bookcatalogue:id/isbn")).perform(typeText("7302122601"),closeSoftKeyboard());
+		  onView(withId("com.eleybourn.bookcatalogue:id/search")).perform(click());
+}
+}

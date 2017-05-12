@@ -1,0 +1,20 @@
+package edu.iscas.appcheckclient.util;
+
+public class Test开源中国{
+public void test(){
+		  onView(withText("取消")).perform(click());
+                  onView(withContentDescription("Close navigation drawer")).perform(click());
+                  onView(withText("我")).perform(click());
+		  onView(withId("net.oschina.app:id/iv_avatar1")).perform(click());
+		  onView(withText("用户登录")).perform(click());
+		  onView(withId("net.oschina.app:id/et_username")).perform(typeText("454294254@qq.com"));
+                  onView(withId("net.oschina.app:id/et_password")).perform(click());
+		  onView(withId("net.oschina.app:id/et_password")).perform(typeText("test123"));
+                  onView(withId("net.oschina.app:id/btn_login")).perform(click());
+                  onView(withId("net.oschina.app:id/quick_option_iv")).perform(click());
+		  onView(withId("net.oschina.app:id/ly_quick_option_text")).perform(click());
+		  onView(withId("net.oschina.app:id/et_content")).perform(click());
+		  onView(withId("net.oschina.app:id/et_content")).perform(typeText("test"));
+		  onView(withId("net.oschina.app:id/public_menu_send")).perform(click());
+}
+}

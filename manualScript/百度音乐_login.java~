@@ -1,0 +1,13 @@
+package edu.iscas.appcheckclient.util;
+
+public class Test百度音乐{
+public void test(){
+
+onView(withContentDescription("13261476069")).perform(type("13261476069"));
+
+onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.view.View/android.widget.EditText[2]")).perform(typeTextIntoFocusedView("TEST_6069"));
+onView(withId("com.ting.mp3.android:id/home_main_titlebar_search_btn")).perform(click());
+onView(withId("com.ting.mp3.android:id/search_history_et")).perform(typeText("t"));
+onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.FrameLayout/com.baidu.music.ui.base.HSlidingPaneLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[1]")).perform(click());
+}
+}

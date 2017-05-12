@@ -1,0 +1,14 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestWordPress{
+public void test(){
+onView(withId("org.wordpress.android:id/nux_username")).perform(click());
+		  onView(withId("org.wordpress.android:id/nux_username")).perform(typeText("454294254@qq.com"));
+ onView(withId("org.wordpress.android:id/nux_password")).perform(click());
+		  onView(withId("org.wordpress.android:id/nux_password")).perform(typeText("AOU_951226"));
+		  onView(withText("登录")).perform(click());
+		  onView(withContentDescription("更多选项")).perform(click());
+		  onView(withText("设置")).perform(click());
+		  onView(withText("站点标题")).perform(click());
+}
+}

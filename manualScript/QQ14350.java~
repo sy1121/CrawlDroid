@@ -1,0 +1,14 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestQQ{
+public void test(){
+onView(withId("com.tencent.mobileqq:id/btn_login")).perform(click());
+onView(withContentDescription("请输入QQ号码或手机或邮箱")).perform(typeText("18401698098"));
+onView(withId("com.tencent.mobileqq:id/password")).perform(typeText("test123456"));
+onView(withId("com.tencent.mobileqq:id/login")).perform(click());
+onView(withId("com.tencent.mobileqq:id/ivTitleBtnLeftButton")).perform(click());
+onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.TabHost/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.TabWidget/android.widget.FrameLayout[1]")).perform(click());
+onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.TabHost/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.TabWidget/android.widget.FrameLayout[2]")).perform(click());
+onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.TabHost/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.TabWidget/android.widget.RelativeLayout")).perform(click());
+}
+}

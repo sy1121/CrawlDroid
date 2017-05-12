@@ -1,0 +1,130 @@
+package com.example.espressotest;
+
+import static android.support.test.espresso.Espresso.onView;
+import static android.support.test.espresso.action.ViewActions.click;
+import static android.support.test.espresso.action.ViewActions.typeText;
+import static android.support.test.espresso.action.ViewActions.clearText;
+import static android.support.test.espresso.matcher.ViewMatchers.withText;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hamcrest.Description;
+import org.hamcrest.Matcher;
+import org.hamcrest.TypeSafeMatcher;
+
+import umd.troy.test.ActionView;
+import umd.troy.test.ActivityInfo;
+import umd.troy.test.State;
+import umd.troy.test.ViewInfo;
+import android.app.Activity;
+import android.app.Instrumentation.ActivityMonitor;
+import android.content.IntentFilter;
+import android.content.res.Resources;
+import android.os.RemoteException;
+import android.support.test.InstrumentationRegistry;
+import android.support.test.espresso.Espresso;
+import android.support.test.uiautomator.UiDevice;
+import android.test.ActivityInstrumentationTestCase2;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AbsListView;
+import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.TabHost;
+
+import com.google.gson.Gson;
+import com.robotium.solo.Solo;
+public class TestAnyMemo extends ActivityInstrumentationTestCase2{
+
+	private static final String tag=FirstTest.class.getSimpleName();
+	private static String LAUNCHER_ACTIVITY_FULL_CLASSNAME="com.example.testclick.MainActivity";
+        private Activity mActivity;
+        private ActivityMonitor am;
+        private int activityNum=0;
+        private Solo solo;
+        private static boolean scrollable=true;
+        public static UiDevice mDevice = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation());
+	@SuppressWarnings("unchecked")
+	public TestAnyMemo()  throws Exception {
+		super(Class.forName(LAUNCHER_ACTIVITY_FULL_CLASSNAME));
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	protected void setUp() throws Exception {
+		// TODO Auto-generated method stub
+		super.setUp();
+		 // Injecting the Instrumentation instance is required
+        // for your test to run with AndroidJUnitRunner.
+        injectInstrumentation(InstrumentationRegistry.getInstrumentation());
+        mActivity = getActivity();
+        am=getInstrumentation().addMonitor(new IntentFilter(), null, false);
+        solo=new Solo(getInstrumentation(),getActivity());
+	}
+	public static Matcher<View> withRId(final String resourceName) {
+        return new TypeSafeMatcher<View>() {
+            Resources resources = null;
+            @Override
+            public void describeTo(Description description) {
+                String idDescription = resourceName;
+                if (resources != null) {
+                    try {
+                        resources.getIdentifier(resourceName, null, null);
+                    } catch (Resources.NotFoundException e) {
+                        // No big deal, will just use the int value.
+                        idDescription = String.format("%s (resource name not found)", resourceName);
+                    }
+                }
+                description.appendText("with id: " + idDescription);
+            }
+
+            @Override
+            public boolean matchesSafely(View view) {
+                resources = view.getContext().getApplicationContext().getResources();
+                if(view.getId() != -1){
+                    String objectResourceName = resources.getResourceName(view.getId());
+                    Log.d("MyMatcher", objectResourceName);
+                    return TextUtils.equals(resourceName, objectResourceName);
+                }
+                return false;
+            }
+        };
+    }
+	  public void test() throws InterruptedException, RemoteException {
+                onView(withText("确定")).perform(click()); 
+                onView(withText("打开")).perform(click()); 
+                onView(withText("下载")).perform(click()); 
+                onView(withText("最近")).perform(click()); 
+onView(withXPath("/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[2]/android.widget.TabHost/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout")).perform(click());
+		onView(withId("org.liberty.android.fantastischmemo:id/menu_context_edit")).perform(click());
+		onView(withId("org.liberty.android.fantastischmemo:id/edit_dialog_question_entry")).perform(typeTextIntoFocusedView("hhair"));
+		onView(withId("org.liberty.android.fantastischmemo:id/edit_dialog_question_entry")).perform(typeTextIntoFocusedView("hahair"));
+		onView(withId("org.liberty.android.fantastischmemo:id/edit_dialog_question_entry")).perform(typeTextIntoFocusedView("haihair"));
+		onView(withId("org.liberty.android.fantastischmemo:id/edit_dialog_question_entry")).perform(typeTextIntoFocusedView("hairhair"));
+		onView(withId("org.liberty.android.fantastischmemo:id/save")).perform(click());
+		onView(withText("?\n显示答案")).perform(click());
+		onView(withId("org.liberty.android.fantastischmemo:id/grade_button_1")).perform(click());
+		Espresso.pressBack();
+		onView(withXPath("/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[2]/android.widget.TabHost/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.TabWidget/android.widget.LinearLayout[3]")).perform(click());
+		
+	    }
+	  
+
+
+	@Override
+	protected void tearDown() throws Exception {
+		// TODO Auto-generated method stub
+	//	super.tearDown();
+	}
+}

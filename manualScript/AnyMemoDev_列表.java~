@@ -1,0 +1,13 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestAnyMemoDev{
+public void test(){
+onView(withText("确定")).perform(click());
+onView(withContentDescription("转到上一层级")).perform(click());
+		  onView(withText("打开")).perform(click());
+		  Thread.sleep(2000);
+		  onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.View/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[3]")).perform(click());
+		  onView(withText("列表")).perform(click());
+		  onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[1]")).perform(click());
+}
+}

@@ -1,0 +1,16 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestA2DPVolume{
+public void test(){
+onView(withId("android:id/text1")).perform(click());
+onView(withId("android:id/button3")).perform(click());
+swipeUp();
+onView(withId("a2dp.Vol:id/chooseAppButton")).perform(click());
+onView(withText("Choose App")).perform(click());
+onView(withId("a2dp.Vol:id/m_et_search")).perform(click());
+onView(withId("a2dp.Vol:id/m_et_search")).perform(typeText("16"));
+onView(withId("a2dp.Vol:id/m_btn_search")).perform(click());
+onView(withXPath("/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout")).perform(click());
+onView(withId("a2dp.Vol:id/EditDevSavebutton")).perform(click());
+}
+}

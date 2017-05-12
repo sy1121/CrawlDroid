@@ -1,0 +1,13 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestMileage{
+public void test(){
+
+onView(withId("com.evancharlton.mileage:id/price")).perform(typeText("123"));
+onView(withId("com.evancharlton.mileage:id/volume")).perform(typeText("123"));
+onView(withId("com.evancharlton.mileage:id/odometer")).perform(typeText("123"));
+onView(withText("Save Fillup")).perform(click());
+onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.TabHost/android.widget.LinearLayout/android.widget.TabWidget/android.widget.RelativeLayout[2]")).perform(click());
+onView(withText("Edit")).perform(click());
+}
+}

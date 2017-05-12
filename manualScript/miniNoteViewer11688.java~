@@ -1,0 +1,15 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestminiNoteViewer{
+public void test(){
+onView(withId("jp.gr.java_conf.hatalab.mnv:id/RightButton")).perform(click());
+onView(withText("Preferences")).perform(click());
+swipeUp();
+swipeUp();
+onView(withText("Set Template Texts")).perform(click());
+onView(withId("jp.gr.java_conf.hatalab.mnv:id/item_template")).perform(click());
+onView(withId("jp.gr.java_conf.hatalab.mnv:id/dialog_edittext")).perform(click());
+onView(withId("jp.gr.java_conf.hatalab.mnv:id/dialog_edittext")).perform(typeText("ghhj"));
+onView(withText("OK")).perform(click());
+}
+}

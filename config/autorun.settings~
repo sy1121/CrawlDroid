@@ -1,0 +1,28 @@
+#被测app的目录
+autotest.appdir=/home/sheyi/instrumentedApk
+#人工测试脚本的路径
+autotest.manualScript=/home/sheyi/gitproject/CrawlDroid/manualScript
+#探测的策略 1BFS 2随机  3启发式
+autotest.exploreType=3
+#是否执行手工测试用例  ture or false
+autotest.doManualExp=false
+#是否处理expored的活动 true or false
+autotest.extendExp=false
+#状态相似性比例(确定两个状态相同的最小相似度) float or in eg: 0.85
+autotest.similarRatio=0.95
+#探测时间上限  单位分钟
+autotest.exploreMaxTime=61
+#统计数据时间间隔 单位分钟
+autotest.intevalPeriod=1
+#ella目录用于方法覆盖统计
+autotest.ellaDir=/home/sheyi/source-code/ella-master
+#avd or device name 
+autotest.avdName=
+#被测app的apk,该apk文件需在@autotest.appdir中
+autotest.appid=HostListActivity-instrumented.apk
+
+#non-ui event
+nonui.swipe=true
+nonui.rotate=false
+nonui.goBack=false
+

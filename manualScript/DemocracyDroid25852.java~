@@ -1,0 +1,9 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestDemocracyDroid{
+public void test(){
+onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.View/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.support.v7.app.ActionBar$Tab[0]")).perform(click());
+onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.View/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.view.View/android.widget.ListView/android.widget.LinearLayout[3]")).perform(click());
+onView(withId("com.workingagenda.democracydroid:id/action_story_video")).perform(click());
+}
+}

@@ -1,0 +1,11 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestSanity{
+public void test(){
+onView(withText("Ok")).perform(click()); 
+onView(withText("Cancel")).perform(click()); 
+onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[2]")).perform(swipeUp());
+			onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[2]")).perform(swipeUp());
+			onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[5]")).perform(click());
+}
+}

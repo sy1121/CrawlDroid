@@ -1,0 +1,13 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestOpenManga{
+public void test(){
+onView(withId("org.nv95.openmanga:id/button_done")).perform(click());
+onView(withText("Local storage")).perform(click());
+onView(withId("org.nv95.openmanga:id/fab_read")).perform(click());
+onView(withText("OK")).perform(click());
+onView(withContentDescription("More options")).perform(click());
+onView(withText("Filter")).perform(click());
+onView(withText("Latest")).perform(click());
+}
+}

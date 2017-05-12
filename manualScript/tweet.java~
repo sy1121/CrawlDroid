@@ -1,0 +1,18 @@
+package edu.iscas.appcheckclient.util;
+
+public class Test开源中国{
+public void test(){
+Thread.sleep(2000);
+		  onView(withText("以后再说")).perform(click());
+		  onView(withId("net.oschina.app:id/main_footbar_tweet")).perform(click());
+		  onView(withId("net.oschina.app:id/main_head_pub_tweet")).perform(click());
+		  onView(withId("net.oschina.app:id/tweet_pub_content")).perform(typeText("test"));
+		  onView(withId("net.oschina.app:id/tweet_pub_publish")).perform(click());}
+}
+
+		  onView(withId("net.oschina.app:id/main_footbar_question")).perform(click());
+		  onView(withId("net.oschina.app:id/main_head_pub_post")).perform(click());
+		  onView(withId("net.oschina.app:id/question_pub_title")).perform(click());
+		  onView(withId("net.oschina.app:id/question_pub_title")).perform(typeText("test"));
+		  onView(withId("net.oschina.app:id/question_pub_content")).perform(typeText("test"));
+		  onView(withId("net.oschina.app:id/question_pub_publish")).perform(click());

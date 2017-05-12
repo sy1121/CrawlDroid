@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="edu.iscas.expdroidclient">
+
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="16"/>
+    <instrumentation android:name="Troy" android:targetPackage=""/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+  <!--  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> 
+    <uses-permission android:name="android.permission.INTERNET"/>
+     --> 
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name=".tools.ExpApplication" android:process="exp.process" android:theme="@style/AppTheme">
+    </application>
+
+</manifest>

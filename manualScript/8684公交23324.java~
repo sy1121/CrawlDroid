@@ -1,0 +1,15 @@
+package edu.iscas.appcheckclient.util;
+
+public class Test8684公交{
+public void test(){
+onView(withText("上海")).perform(click());
+pressBack();
+swipeRight();
+onView(withId("cn.chinabus.main:id/tvLogin")).perform(click());
+onView(withId("cn.chinabus.main:id/btnQQ")).perform(click());
+onView(withId("android:id/content")).perform(click());
+onView(withText("登录")).perform(click());
+onView(withText("我的任务")).perform(click());
+
+}
+}

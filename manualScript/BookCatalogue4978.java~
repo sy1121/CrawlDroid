@@ -1,0 +1,12 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestBookCatalogue{
+public void test(){
+onView(withId("com.eleybourn.bookcatalogue:id/confirm")).perform(click());
+onView(withId("com.eleybourn.bookcatalogue:id/administration_label")).perform(click());
+swipeUp();
+onView(withId("com.eleybourn.bookcatalogue:id/background_tasks_label")).perform(click());
+onView(withId("com.eleybourn.bookcatalogue:id/confirm")).perform(click());
+onView(withId("com.eleybourn.bookcatalogue:id/cleanup")).perform(click());
+}
+}

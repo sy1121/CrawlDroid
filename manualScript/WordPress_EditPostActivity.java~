@@ -1,0 +1,11 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestWordPress{
+public void test(){
+ onView(withId("org.wordpress.android:id/nux_username")).perform(click());
+		  onView(withId("org.wordpress.android:id/nux_username")).perform(typeText("454294254@qq.com"));
+		  onView(withId("org.wordpress.android:id/nux_password")).perform(typeText("AOU_951226"));
+		  onView(withText("登录")).perform(click());
+		  onView(withXPath("/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[2]/android.view.View/android.widget.FrameLayout[2]/android.widget.ListView/android.widget.LinearLayout[9]")).perform(click());
+}
+}

@@ -1,0 +1,17 @@
+package edu.iscas.appcheckclient.util;
+
+public class TestNPRNews{
+public void test(){
+onView(withId("org.npr.android.news:id/MainNavButton")).perform(click());
+onView(withText("Locate Stations")).perform(click());
+onView(withId("org.npr.android.news:id/StationSearchTerm")).perform(click());
+onView(withId("org.npr.android.news:id/StationSearchTerm")).perform(typeText("wamu"));
+onView(withId("org.npr.android.news:id/search_go_button")).perform(click());
+onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout")).perform(click());
+onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[8]")).perform(click());
+onView(withXPath("/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[4]")).perform(click());
+onView(withId("org.npr.android.news:id/MainNavButton")).perform(click());
+onData(anything()).inAdapterView(withId("org.npr.android.news:id/ActivityList")).atPosition(0).check(matches(isDisplayed()));
+onView(withText("Favorite Stations")).perform(click());
+}
+}
