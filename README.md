@@ -64,11 +64,12 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
 |Qiyouyuedu         |26|178|25|19                |46|194|33|36 
 
 The following sections show some  pictures and video of CrawlDroid.
+<p>
 **record test scripts**
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![
+
 **run CrawlDroid**
-(https://img.shields.io/github/forks/pandao/editor.md.svg) ![]
+
 **collect test result**
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+
 ### Contact
-    sheyi14@otcaix.iscas.ac.cn
+sheyi14@otcaix.iscas.ac.cn
