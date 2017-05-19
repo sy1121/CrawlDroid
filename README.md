@@ -2,7 +2,7 @@
 ###  Introduction
 CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a novel feedback-based exploration strategy to reduce the cost of testing time, and  leverages manual-encoded tests to mine some domain knowledge about apps to improve code coverage. In order to  evaluate the effectiveness of the technique, we conduct some  empirical studies on 46 open source applications and 12 commercial applications. The numerical result is shown in the table.
  
-
+###  result of empirical studies
 | Subject       | BFS-states   |  BFS-EG  |BFS-AC|BFS-MT| F-states   | F-EG  |F-AC|F-MT|
 | --------   | -----:  | :----:  |
 |WordPress           |13|72|9|6              |28|60|9|15   
@@ -63,13 +63,14 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
 |Flixster                 |22|190|8|31                   |62|196|31|44 
 |Qiyouyuedu         |26|178|25|19                |46|194|33|36 
 
+
 The following sections show some  pictures and video of CrawlDroid.
-<p>
+
 **record test scripts**
-
+dd
 **run CrawlDroid**
-
+dd
 **collect test result**
-
+dd
 ### Contact
 sheyi14@otcaix.iscas.ac.cn
