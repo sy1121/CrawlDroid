@@ -1,6 +1,6 @@
 ## CrawlDroid 
 ###  Introduction
- This is a site to display the test result of CrawlDroid. We perform CrawlDroid on 46 open source applications and 12 real commercial applications to evaluate the feasibility of the technique.  The numerical result is shown in the table.
+CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a novel feedback-based exploration strategy to reduce the cost of testing time, and  leverages manual-encoded tests to mine some domain knowledge about apps to improve code coverage. In order to  evaluate the effectiveness of the technique, we conduct some  empirical studies on 46 open source applications and 12 commercial applications. The numerical result is shown in the table.
  
 
 | Subject       | BFS-states   |  BFS-EG  |BFS-AC|BFS-MT| F-states   | F-EG  |F-AC|F-MT|
@@ -63,6 +63,12 @@
 |Flixster                 |22|190|8|31                   |62|196|31|44 
 |Qiyouyuedu         |26|178|25|19                |46|194|33|36 
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The following sections show some  pictures and video of CrawlDroid.
+**record test scripts**
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![
+**run CrawlDroid**
+(https://img.shields.io/github/forks/pandao/editor.md.svg) ![]
+**collect test result**
+![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+### Contact
+    sheyi14@otcaix.iscas.ac.cn
