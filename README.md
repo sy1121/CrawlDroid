@@ -934,9 +934,13 @@ The following sections show some  pictures and video of CrawlDroid.
 
 **record test scripts**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q3l6iXLwWUU" frameborder="0" allowfullscreen></iframe>
+**set params**
+<iframe width="560" height="315" src="https://youtu.be/Pom-zCd3UKk" frameborder="0" allowfullscreen></iframe>
 **run CrawlDroid**
-
+<iframe width="560" height="315" src="https://youtu.be/jHZyGuwoJ4I" frameborder="0" allowfullscreen></iframe>
 **collect test result**
-dd
+
+**states graph**
+![](https://pan.baidu.com/s/1jIp6phW)
 ### Contact
 sheyi14@otcaix.iscas.ac.cn
