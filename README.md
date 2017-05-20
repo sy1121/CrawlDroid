@@ -934,7 +934,11 @@ The following sections show some  pictures and video of CrawlDroid.
 
 **record test scripts**
 fasdfas
-<iframe height=498 width=510 src="http://player.youku.com/embed/XNjcyMDU4Njg0">
+<p class="pic-title"><strong>Fig.2 Test case of MyTrack</strong></p>
+
+<iframe align="middle" width="560" height="315" src="https://www.youtube.com/embed/D-UOJOryFig" frameborder="0" allowfullscreen></iframe>
+
+<h3>
 asdfasdf
 <iframe height=498 width=510 src="https://pan.baidu.com/s/1hr59hcg"></iframe>
 sdfasdf
