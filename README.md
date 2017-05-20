@@ -933,11 +933,11 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
 The following sections show some  pictures and video of CrawlDroid.
 
 **record test scripts**
-
+fasdfas
 <iframe height=498 width=510 src="http://player.youku.com/embed/XNjcyMDU4Njg0">
-
-<iframe height=498 width=510 src="https://pan.baidu.com/s/1hr59hcg" frameborder=0 allowfullscreen></iframe>
-
+asdfasdf
+<iframe height=498 width=510 src="https://pan.baidu.com/s/1hr59hcg"></iframe>
+sdfasdf
 **run CrawlDroid**
 dd
 **collect test result**
