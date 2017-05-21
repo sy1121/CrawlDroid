@@ -944,9 +944,9 @@ The following sections show some  pictures and video of CrawlDroid.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jHZyGuwoJ4I" frameborder="0" allowfullscreen></iframe>
 
-**collect test result**
-
-**states graph**
+**collect results**
+   uplooad later
+**states graph example**
 [![](http://imglf1.nosdn.127.net/img/dlp0NDBrYjBhYmtNa2ZJK2JZSDdWTVFKYVVWeDR4bmVsV0JkSGI3VVJ0YU1nTWpqemhkVUh3PT0.jpg)](http://imglf1.nosdn.127.net/img/dlp0NDBrYjBhYmtNa2ZJK2JZSDdWTVFKYVVWeDR4bmVsV0JkSGI3VVJ0YU1nTWpqemhkVUh3PT0.jpg)
 ### Contact
 sheyi14@otcaix.iscas.ac.cn
