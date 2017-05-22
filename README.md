@@ -940,9 +940,13 @@ The following sections show some  pictures and video of CrawlDroid.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pom-zCd3UKk" frameborder="0" allowfullscreen></iframe>
 
-**run CrawlDroid**
+**run CrawlDroid on device**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jHZyGuwoJ4I" frameborder="0" allowfullscreen></iframe>
+
+** run CrawlDroid on emulator **
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SszhTmmJ_uM" frameborder="0" allowfullscreen></iframe>
 
 **collect results**
    <br/>uplooad later<br/>
