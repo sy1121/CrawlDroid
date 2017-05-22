@@ -731,7 +731,7 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>#</td>
    </tr>
    <tr>
-      <td colspan="14" align="center">the following is commercial applications </td>
+      <td colspan="14" align="center">the following are commercial applications </td>
    </tr>
    <tr>
       <td>Dotools Clock   </td>
