@@ -8,7 +8,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>Subject</td>
       <td colspan="5" align="center">BFS</td>
       <td  colspan="5" align="center">Feedback</td>
-      <td  colspan="3" align="center">Monkey</td>
    </tr>
    <tr>
       <td></td>
@@ -19,9 +18,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>SC</td>
       <td>states</td>
       <td>EG</td>
-      <td>AC</td>
-      <td>MT</td>
-      <td>SC</td>
       <td>AC</td>
       <td>MT</td>
       <td>SC</td>
@@ -38,9 +34,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>9</td>
       <td>15</td>
       <td>3</td>
-      <td>9</td>
-      <td>23</td>
-      <td>5</td>
    </tr>
    <tr>
       <td>MyExpenses      </td>
@@ -53,9 +46,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>200</td>
       <td>67</td>
       <td>10</td>
-      <td>#</td>
-      <td>52</td>
-      <td>15</td>
       <td>#</td>
    </tr>
    <tr>
@@ -70,9 +60,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>86</td>
       <td>46</td>
       <td>18</td>
-      <td>71</td>
-      <td>42</td>
-      <td>24</td>
    </tr>
    <tr>
       <td>OSChina             </td>
@@ -85,9 +72,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>223</td>
       <td>45</td>
       <td>40</td>
-      <td>34</td>
-      <td>45</td>
-      <td>33</td>
       <td>34</td>
    </tr>
    <tr>
@@ -102,9 +86,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>66</td>
       <td>15</td>
       <td>39</td>
-      <td>48</td>
-      <td>15</td>
-      <td>27</td>
    </tr>
    <tr>
       <td>DalvikExplorer    </td>
@@ -118,9 +99,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>69</td>
       <td>80</td>
       <td>65</td>
-      <td>94</td>
-      <td>79</td>
-      <td>31</td>
    </tr>
    <tr>
       <td>NRPNews</td>
@@ -133,9 +111,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>38</td>
       <td>77</td>
       <td>6</td>
-      <td>#</td>
-      <td>77</td>
-      <td>5</td>
       <td>#</td>
    </tr>
    <tr>
@@ -150,9 +125,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>54</td>
       <td>25</td>
       <td>3</td>
-      <td>54</td>
-      <td>28</td>
-      <td>10</td>
    </tr>
    <tr>
       <td>Tomdroid</td>
@@ -166,9 +138,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>63</td>
       <td>34</td>
       <td>28</td>
-      <td>63</td>
-      <td>43</td>
-      <td>48</td>
    </tr>
    <tr>
       <td>Tipitaka              </td>
@@ -181,9 +150,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>158</td>
       <td>73</td>
       <td>90</td>
-      <td>#</td>
-      <td>73</td>
-      <td>9</td>
       <td>#</td>
    </tr>
    <tr>
@@ -198,9 +164,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>66</td>
       <td>13</td>
       <td>#</td>
-      <td>67</td>
-      <td>14</td>
-      <td>#</td>
    </tr>
    <tr>
       <td>Blokish</td>
@@ -213,9 +176,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>7</td>
       <td>100</td>
       <td>55</td>
-      <td>1</td>
-      <td>67</td>
-      <td>43</td>
       <td>1</td>
    </tr>
    <tr>
@@ -230,9 +190,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>42</td>
       <td>33</td>
       <td>28</td>
-      <td>42</td>
-      <td>44</td>
-      <td>37</td>
    </tr>
    <tr>
       <td>LogicalDefence     </td>
@@ -243,9 +200,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>#</td>
       <td>11</td>
       <td>41</td>
-      <td>100</td>
-      <td>14</td>
-      <td>#</td>
       <td>100</td>
       <td>14</td>
       <td>#</td>
@@ -262,9 +216,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>66</td>
       <td>54</td>
       <td>29</td>
-      <td>67</td>
-      <td>75</td>
-      <td>67</td>
    </tr>
    <tr>
       <td>Whohasmystuff      </td>
@@ -277,9 +228,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>83</td>
       <td>100</td>
       <td>91</td>
-      <td>2</td>
-      <td>100</td>
-      <td>82</td>
       <td>2</td>
    </tr>
    <tr>
@@ -294,9 +242,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>50</td>
       <td>80</td>
       <td>88</td>
-      <td>50</td>
-      <td>80</td>
-      <td>93</td>
    </tr>
    <tr>
       <td>OpenManga</td>
@@ -309,9 +254,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>56</td>
       <td>57</td>
       <td>35</td>
-      <td>#</td>
-      <td>66</td>
-      <td>42</td>
       <td>#</td>
    </tr>
    <tr>
@@ -326,9 +268,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>50</td>
       <td>42</td>
       <td>34</td>
-      <td>50</td>
-      <td>35</td>
-      <td>24</td>
    </tr>
    <tr>
       <td>Ultramegatech</td>
@@ -341,9 +280,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>24</td>
       <td>50</td>
       <td>63</td>
-      <td>1</td>
-      <td>50</td>
-      <td>64</td>
       <td>1</td>
    </tr>
    <tr>
@@ -358,9 +294,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>75</td>
       <td>34</td>
       <td>#</td>
-      <td>75</td>
-      <td>40</td>
-      <td>#</td>
    </tr>
    <tr>
       <td>ALogcat</td>
@@ -371,9 +304,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>#</td>
       <td>16</td>
       <td>126</td>
-      <td>100</td>
-      <td>74</td>
-      <td>#</td>
       <td>100</td>
       <td>74</td>
       <td>#</td>
@@ -390,9 +320,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>55</td>
       <td>64</td>
       <td>#</td>
-      <td>45</td>
-      <td>57</td>
-      <td>#</td>
    </tr>
    <tr>
       <td>BatteryManager     </td>
@@ -406,9 +333,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>100</td>
       <td>71</td>
       <td>82</td>
-      <td>100</td>
-      <td>71</td>
-      <td>61</td>
    </tr>
    <tr>
       <td>Yahtzee</td>
@@ -422,9 +346,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>100</td>
       <td>47</td>
       <td>6</td>
-      <td>50</td>
-      <td>5</td>
-      <td>49</td>
    </tr>
    <tr>
       <td>AGrep                   </td>
@@ -438,9 +359,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>83</td>
       <td>58</td>
       <td>38</td>
-      <td>63</td>
-      <td>48</td>
-      <td>47</td>
    </tr>
    <tr>
       <td>Mirrored</td>
@@ -453,9 +371,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>155</td>
       <td>100</td>
       <td>82</td>
-      <td>2</td>
-      <td>100</td>
-      <td>81</td>
       <td>2</td>
    </tr>
    <tr>
@@ -470,9 +385,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>100</td>
       <td>89</td>
       <td>13</td>
-      <td>100</td>
-      <td>90</td>
-      <td>58</td>
    </tr>
    <tr>
       <td>Addi</td>
@@ -486,9 +398,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>50</td>
       <td>11</td>
       <td>17</td>
-      <td>50</td>
-      <td>11</td>
-      <td>20</td>
    </tr>
    <tr>
       <td>CrimeTalk             </td>
@@ -499,9 +408,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>#</td>
       <td>31</td>
       <td>159</td>
-      <td>100</td>
-      <td>41</td>
-      <td>#</td>
       <td>100</td>
       <td>41</td>
       <td>#</td>
@@ -518,9 +424,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>100</td>
       <td>63</td>
       <td>0</td>
-      <td>100</td>
-      <td>63</td>
-      <td>0</td>
    </tr>
    <tr>
       <td>Democracydroid   </td>
@@ -534,9 +437,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>100</td>
       <td>37</td>
       <td>#</td>
-      <td>100</td>
-      <td>38</td>
-      <td>#</td>
    </tr>
    <tr>
       <td>Autoanswer          </td>
@@ -547,9 +447,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>14</td>
       <td>3</td>
       <td>14</td>
-      <td>100</td>
-      <td>15</td>
-      <td>27</td>
       <td>100</td>
       <td>15</td>
       <td>27</td>
@@ -566,9 +463,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>50</td>
       <td>23</td>
       <td>30</td>
-      <td>50</td>
-      <td>24</td>
-      <td>20</td>
    </tr>
    <tr>
       <td>LearnMusicNotes </td>
@@ -582,9 +476,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>100</td>
       <td>62</td>
       <td>34</td>
-      <td>100</td>
-      <td>42</td>
-      <td>37</td>
    </tr>
    <tr>
       <td>DdalyHeart            </td>
@@ -598,9 +489,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>75</td>
       <td>12</td>
       <td>#</td>
-      <td>75</td>
-      <td>11</td>
-      <td>#</td>
    </tr>
    <tr>
       <td>Chronosnap          </td>
@@ -611,9 +499,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>7</td>
       <td>9</td>
       <td>35</td>
-      <td>100</td>
-      <td>45</td>
-      <td>7</td>
       <td>100</td>
       <td>45</td>
       <td>7</td>
@@ -630,9 +515,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>100</td>
       <td>39</td>
       <td>28</td>
-      <td>100</td>
-      <td>40</td>
-      <td>29</td>
    </tr>
    <tr>
       <td>NetCounter           </td>
@@ -646,9 +528,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>66</td>
       <td>57</td>
       <td>37</td>
-      <td>67</td>
-      <td>57</td>
-      <td>46</td>
    </tr>
    <tr>
       <td>MiniNoteViewer      </td>
@@ -662,9 +541,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>12</td>
       <td>57</td>
       <td>30</td>
-      <td>13</td>
-      <td>57</td>
-      <td>42</td>
    </tr>
    <tr>
       <td>AnyCut                </td>
@@ -678,9 +554,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>100</td>
       <td>77</td>
       <td>67</td>
-      <td>100</td>
-      <td>80</td>
-      <td>52</td>
    </tr>
    <tr>
       <td>CountDownTimer   </td>
@@ -691,9 +564,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>4</td>
       <td>3</td>
       <td>18</td>
-      <td>100</td>
-      <td>70</td>
-      <td>11</td>
       <td>100</td>
       <td>70</td>
       <td>11</td>
@@ -710,9 +580,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>33</td>
       <td>68</td>
       <td>40</td>
-      <td>33</td>
-      <td>45</td>
-      <td>67</td>
    </tr>
    <tr>
       <td>Alarmclock           </td>
@@ -723,9 +590,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>#</td>
       <td>28</td>
       <td>123</td>
-      <td>60</td>
-      <td>64</td>
-      <td>#</td>
       <td>60</td>
       <td>64</td>
       <td>#</td>
@@ -745,9 +609,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>40</td>
       <td>29</td>
       <td>*</td>
-      <td>37</td>
-      <td>29</td>
-      <td>*</td>
    </tr>
    <tr>
       <td>AudioClass        </td>
@@ -760,9 +621,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>53</td>
       <td>25</td>
       <td>4</td>
-      <td>*</td>
-      <td>25</td>
-      <td>7</td>
       <td>*</td>
    </tr>
    <tr>
@@ -777,9 +635,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>17</td>
       <td>30</td>
       <td>*</td>
-      <td>22</td>
-      <td>32</td>
-      <td>*</td>
    </tr>
    <tr>
       <td>Cdxc                </td>
@@ -793,9 +648,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>28</td>
       <td>9</td>
       <td>*</td>
-      <td>22</td>
-      <td>8</td>
-      <td>*</td>
    </tr>
    <tr>
       <td>TED                  </td>
@@ -807,9 +659,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>28</td>
       <td>153</td>
       <td>28</td>
-      <td>35</td>
-      <td>*</td>
-      <td>24</td>
       <td>35</td>
       <td>*</td>
    </tr>
@@ -825,9 +674,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>36</td>
       <td>28</td>
       <td>*</td>
-      <td>27</td>
-      <td>25</td>
-      <td>*</td>
    </tr>
    <tr>
       <td>Ergedd              </td>
@@ -840,9 +686,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>221</td>
       <td>25</td>
       <td>26</td>
-      <td>*</td>
-      <td>33</td>
-      <td>25</td>
       <td>*</td>
    </tr>
    <tr>
@@ -857,9 +700,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>30</td>
       <td>17</td>
       <td>*</td>
-      <td>23</td>
-      <td>15</td>
-      <td>*</td>
    </tr>
    <tr>
       <td>Jams Music         </td>
@@ -872,9 +712,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>108</td>
       <td>56</td>
       <td>29</td>
-      <td>*</td>
-      <td>25</td>
-      <td>6</td>
       <td>*</td>
    </tr>
    <tr>
@@ -889,9 +726,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>17</td>
       <td>20</td>
       <td>*</td>
-      <td>21</td>
-      <td>21</td>
-      <td>*</td>
    </tr>
    <tr>
       <td>Flixster              </td>
@@ -905,9 +739,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>31</td>
       <td>44</td>
       <td>*</td>
-      <td>27</td>
-      <td>37</td>
-      <td>*</td>
    </tr>
    <tr>
       <td>Qiyouyuedu       </td>
@@ -920,9 +751,6 @@ CrawlDroid is a toolset for GUI Testing of Android Applications.  it designs a n
       <td>194</td>
       <td>33</td>
       <td>36</td>
-      <td>*</td>
-      <td>27</td>
-      <td>37</td>
       <td>*</td>
    </tr>
    <tr>
